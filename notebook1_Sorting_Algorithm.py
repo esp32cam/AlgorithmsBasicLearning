@@ -8,7 +8,7 @@ Original file is located at
 """
 
 'Sorting'
- def selection_sort(arr):
+def selection_sort(arr):
      size = len(arr)
      for i in range(size - 1):
          min_index = i
@@ -19,8 +19,8 @@ Original file is located at
          if i != min_index:
              arr[i], arr[min_index] = arr[min_index], arr[i]
 
- lst = []
- while True:
+lst = []
+while True:
      a = int(input().__str__())
      if a != 0:
          lst.append(a)
@@ -28,7 +28,7 @@ Original file is located at
      if a == '0' or a == 0:
          break
 
- if __name__ == '__main__':
+if __name__ == '__main__':
      elements = lst
      selection_sort(elements)
      Choice_input = input()
